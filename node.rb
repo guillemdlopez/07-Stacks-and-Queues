@@ -3,7 +3,7 @@ class Node
     # usually has data and a pointer to the next node of the list
     attr_accessor :value, :next, :prev
 
-    def initialize(value, next_node = nil, prev = nil)
+    def initialize(value, next_node = nil)
         @value = value
         @next = next_node
     end
